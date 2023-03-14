@@ -3,7 +3,7 @@
 The Final Project of CS50x, where my task was to create a study helper, named Staid. This repository will be updated periodically as I continue to complete the project. This README will be updated properly once the project is completed.
 
 ## Demo
-
+Above is GIF showing the Web App & the usage of each feature. Each feature is explained greater in depth below. This was taken using a development server to show the functionality of Staid.
 ## Features 
 
 ## Credits
