@@ -1,0 +1,39 @@
+{% extends "layout.html" %}
+
+{% block title %}
+Staid: Timer
+{% endblock %}
+
+{% block icon %}
+<link href="/static/clock-title-icon.ico" rel="icon">
+{% endblock %}
+
+{% block timer_active %}
+active
+{% endblock %}
+
+
+{% block body %}
+<br>
+<div>
+<div class="base-timer mt-1">
+    <svg class="base-timer__svg" stroke="#44a1f1" id="circle" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+      <g class="base-timer__circle">
+        <circle class="base-timer__path-elapsed" cx="50" cy="50" r="45"/>
+      </g>
+    </svg>
+    <span id="base-timer-label" class="base-timer__label">
+      <!-- Countdown timer is shown here, it is constantly updated using the javascript function show_time_left(time_shown).-->
+    </span>
+    <form action="/timer" method="post">
+      <p class="card-text me-2 mt-2">Duration:</p>
+        <input class="form-control me-auto" type="text" placeholder="00h 00m 00s" name="duration" minlength="11" maxlength="11">
+      <p class="card-text me-2 mt-3">Log this session (Optional):</p>
+        <input class="form-control me-auto" type="text" placeholder="Session Name" name="session_name" maxlength="10">
+        <button class="btn btn-timer form-control me-auto mt-4 mb-4 btn-lg" style="left: 100;" type="submit">Set Timer!</button>
+      </form>
+</div>
+<script>
+  const TOTAL_TIME = {{ total }};
+</script>
+{% endblock %}
