@@ -4,7 +4,6 @@ The Final Project of CS50x, where my task was to create a study helper, named St
 
 ## Demo
 
-
 https://user-images.githubusercontent.com/119602009/225231680-a2b15c1c-0d12-45ef-aee6-498e5f5e5e97.mp4
 Above is video showing the Web App & the usage of each feature. Each feature is explained greater in depth below. This was taken using a development server to show the functionality of Staid. Apologies for the poor quality, I will be updating with a better quality video soon.
 
@@ -27,6 +26,12 @@ The Study Locations Near You shows the user the closest study locations near the
 I originally planned to use the Google Maps API, however, I did not as it is not open-source and incurs a cost after the credit provided is exceeded.
 
 The accent color for this Green (Hex Code: `#00A266`) as it is known to give a sense of the outdoors and reduce anxiety, matching the sense of studying somewhere new.
+
+### About
+The About page is a brief description of what Staid is and what it aims to achieve. The Credits section acknowledges the additional technologies used to create Staid.
+
+### Persistent Light/Dark Mode 
+The toggle button in the header is a Light/Dark mode toggle for the Web App. By default, Dark Mode is selected. If the user wishes to enable Light Mode, the toggle button's color changes to white and it appears as toggled throughout, with the Light Mode persisting for the user automatically. If the user wishes to change back to Dark Mode, the user can do so, with the toggle being set back to its default state with the Dark Mode persisting throughout. 
 
 ## My Thoughts
 
