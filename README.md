@@ -34,7 +34,7 @@ I had originally planned to use the Google Maps API, however, I did not as it is
 The accent color for this green (Hex Code: `#00A266`) as it is known to give a sense of the outdoors and reduce anxiety, matching the sense of studying somewhere new.
 
 ### About
-The About page has a description of what Staid is and what it aims to achieve. The 'Credits' section acknowledges the additional technologies used to create Staid.
+The About page has a description of what Staid is and what it aims to achieve. The "Credits" section acknowledges the additional technologies used to create Staid.
 
 ### Persistent Light/Dark Mode 
 The toggle button in the header is a Light/Dark mode toggle for the Web App. By default, Dark Mode is selected. If the user wishes to enable Light Mode, the toggle button's color changes to white and it appears as toggled throughout, with the Light Mode persisting for the user automatically. If the user wishes to change back to Dark Mode, the user can do so, with the toggle being set back to its default state with the Dark Mode persisting throughout. 
