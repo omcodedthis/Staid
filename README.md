@@ -11,7 +11,7 @@ Above is video showing the Web App & the usage of each feature. Each feature is 
 ## Features
 
 ### Timer
-The Timer is a countdown timer for users to time their study sessions. There are two input fields. The first being the duration of the study session, with the format of hours, minutes & seconds. The second is the name of this session if the user wishes to log this session. If the user wishes to log the session, the session is automatically added to their Logbook without any action required from the user. The length of this session is the duration the user had inputted and the date logged is the date of when the timer was used for this session.
+The Timer is a countdown timer for users to time their study sessions. There are two sections. The first is the timer itself. The second has 2 input fields. The first being for the duration of the study session, with the format of hours, minutes and seconds. The second is the name of this session if the user wishes to log this session. If the user wishes to log the session, the session is automatically added to their Logbook without any action required from the user. The length of this session is the duration the user had inputted and the date logged is the date of when the timer was used for this session.
 Once the timer reaches the final ten seconds, the color of the timer changes from blue to yellow. At the end, the timer changes from yellow to red.
 
 The accent color for this feature is Blue (Hex Code: `#44A1F1`) as it is known to have a calming effect, increasing focus and productivity during a timed session.
