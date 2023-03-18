@@ -1,6 +1,6 @@
 # ![target (8)](https://user-images.githubusercontent.com/119602009/224983565-4dcba114-8cf2-4ddf-8f36-4c239df2bb0f.svg) Staid
 
-The Final Project of CS50x, where my task was to create a study helper, named Staid. This repository will be updated periodically as I continue to complete the project. This README will be updated properly once the project is completed. This READ.ME is a WIP & not the final version. I will also be creating a live version for this Web App hosted on either Heroku or pythonanywhere.
+Staid is a study helper that complements the learning process for students. The name was formed by joining the words study and aid, encapsulating the meaning within. It comes with 3 main features, the Timer, the Logbook and Study Locations Near Me (Near Me) which are explained in greater detail below. This README will be updated properly once the project is completed. This READ.ME is a WIP & not the final version. I will also be creating a live version for this Web App hosted on either Heroku or pythonanywhere.
 
 ## Demo
 
