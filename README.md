@@ -51,6 +51,8 @@ The accent color for this green (Hex Code: `#00A266`) as it is known to give a s
 <summary>About Page</summary>
 
 The About page has a description of what Staid is and what it aims to achieve. The "Credits" section acknowledges the additional technologies used to create Staid.
+</details>
+
 
 <details>
 <summary>Persistent Light/Dark Mode</summary>
