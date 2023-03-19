@@ -14,7 +14,7 @@ Above is video showing the Web App & the usage of each feature. Each feature is 
 <details>
 <summary>Timer</summary>
 
-![timer-gif](https://user-images.githubusercontent.com/119602009/226172679-6dc07429-0eb1-48ca-b7f8-07aa1b71f02a.gif)
+![timer-gif](https://user-images.githubusercontent.com/119602009/226175673-c68a151f-9511-417c-a02e-c97309c827b4.gif)
 
 The Timer is a countdown timer for users to time their study sessions. There are two input fields. The first being for the duration of the study session, in the format of hours, minutes and seconds. The second is the name of the session if the user wishes to add it to their Logbook. 
 
