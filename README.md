@@ -24,7 +24,7 @@ Above is video showing the Web App & the usage of each feature. Each feature is 
 
 The Timer is a countdown timer for users to time their study sessions. There are two input fields. The first being for the duration of the study session, in the format of hours, minutes and seconds. The second is the name of the session if the user wishes to add it to their Logbook. If the user wishes to log the session, the session is automatically added to their Logbook without any action required from the user. The length of this session is the duration the user had inputted and the date logged is the date of when the timer was used for this session. Once the timer reaches the final ten seconds, the color of the Timer changes from blue to yellow. At the end, the Timer changes from yellow to red.
 
-The accent color for this feature is blue (Hex Code: `#44A1F1`) as it is known to have a calming effect, increasing focus and productivity during a timed session.
+The accent color for this feature is Blue (Hex Color Code: `#44A1F1`) as it is known to have a calming effect, increasing focus and productivity during a timed session.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -43,7 +43,7 @@ The accent color for this feature is blue (Hex Code: `#44A1F1`) as it is known t
 
 The Logbook is a log of all the user's study sessions. There are two sections. The first is for the user to add a session to the Logbook directly with three input fields, the name of the session, the duration of the session & the date of the session they wish to add. The second is the Logbook itself, in the form of a table. The columns, from left to right, are the index of the row, the name of the session, the duration of the session & the date of the session. The records of the Logbook is ordered in a reversed chronological order, with the earliest session at the top of the table. This is so to remind the user of their immediate previous session so that they can plan their next sessions more effectively.
 
-The accent color for this feature is yellow (Hex Code: `#FFBB44`) as it is known to improve optimism and analytical skills. This increases the user's ability to analyse their sessions to improve their productivity. 
+The accent color for this feature is yellow (Hex Color Code: `#FFBB44`) as it is known to improve optimism and analytical skills. This increases the user's ability to analyse their sessions to improve their productivity. 
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -51,7 +51,7 @@ The accent color for this feature is yellow (Hex Code: `#FFBB44`) as it is known
 
 
 <details>
-<summary>View Information on Study Locations Near You (Near Me).</summary>
+<summary>View Information on the Study Locations Near You (Near Me) Page.</summary>
 <br>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://user-images.githubusercontent.com/119602009/226187353-237ab5b1-6e8d-439e-af2f-ec6473bb1fc6.gif">
@@ -64,7 +64,7 @@ The Study Locations Near You shows the user their closest study locations. There
 
 I had originally planned to use the Google Maps API, however, I did not as it is not open-source and incurs a cost after the credit provided is exceeded.
 
-The accent color for this is green (Hex Code: `#00A266`) as it is known to give a sense of the outdoors and reduce anxiety, matching the sense of studying somewhere new.
+The accent color for this is green (Hex Color Code: `#00A266`) as it is known to give a sense of the outdoors and reduce anxiety, matching the sense of studying somewhere new.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -89,7 +89,7 @@ The About page has a description of what Staid is and what it aims to achieve. T
 
 
 <details>
-<summary>View Information on the Persistent Light/Dark Mode.</summary>
+<summary>View Information on the Persistent Light / Dark Mode.</summary>
 <br>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://user-images.githubusercontent.com/119602009/226172785-d6745b75-247b-4757-98f1-086904117609.gif">
@@ -135,4 +135,4 @@ Staid was a great learning opportunity. It allowed to me to hone my programming 
 
 Through this project, I learnt an important skill in programming, the ability to search for relevant information and documentation of various libraries to implement features into my Web App.
 
-I also got a taste of designing from an aesthetic standpoint. Looking for colors that look good in both Light/Dark Modes without causing eye strain, ensuring that each feature's color and icon was used as an accent effectively in their respective pages and spacing the contents apart evenly to make it more appealing for the user.
+I also got a taste of designing from an aesthetic standpoint. Looking for colors that look good in both Light / Dark Modes without causing eye strain, ensuring that each feature's color and icon was used as an accent effectively in their respective pages and spacing the contents apart evenly to make it more appealing for the user.
