@@ -2,7 +2,7 @@
 
 Staid is a study helper that complements the learning process for students. The name was formed by joining the words study and aid, encapsulating the meaning within. The logo is a target to represent the aim of Staid which is to help students to achieve their targets. It comes with 3 main features, the Timer, the Logbook and Study Locations Near Me (Near Me) which are explained in greater detail below.
 
-
+### [Use Staid Now!](https://staid.pythonanywhere.com/)
 
 ## Demo
 
@@ -49,7 +49,7 @@ The accent color for this green (Hex Code: `#00A266`) as it is known to give a s
 
 <details>
 <summary>About Page</summary>
-
+![Screenshot 2023-03-19 202350](https://user-images.githubusercontent.com/119602009/226174943-f125c306-9d32-4702-b9d3-83878a55d94e.png)
 The About page has a description of what Staid is and what it aims to achieve. The "Credits" section acknowledges the additional technologies used to create Staid.
 </details>
 
