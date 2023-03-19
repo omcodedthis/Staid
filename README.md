@@ -11,8 +11,8 @@ https://user-images.githubusercontent.com/119602009/226168818-e40fbeba-37d4-40c5
 Above is video showing the Web App & the usage of each feature. Each feature is explained greater in depth below. Do note that the video has been sped up and compressed to meet GitHub's file limits.
 
 ## Features
-<details>
-<summary>Timer</summary>
+
+### Timer
 
 ![timer-gif](https://user-images.githubusercontent.com/119602009/226172679-6dc07429-0eb1-48ca-b7f8-07aa1b71f02a.gif)
 
@@ -23,37 +23,30 @@ If the user wishes to log the session, the session is automatically added to the
 Once the timer reaches the final ten seconds, the color of the Timer changes from blue to yellow. At the end, the Timer changes from yellow to red.
 
 The accent color for this feature is blue (Hex Code: `#44A1F1`) as it is known to have a calming effect, increasing focus and productivity during a timed session.
-</details>
 
 
-<details>
-<summary>Logbook</summary>
+### Logbook
 
 ![logbook-gif](https://user-images.githubusercontent.com/119602009/226172690-da786437-ba8b-4f14-9f14-2f3f39780dfc.gif)
 
 The Logbook is a log of all the user's study sessions. There are two sections. The first is for the user to add a session to the Logbook directly with three input fields, the name of the session, the duration of the session & the date of the session they wish to add. The second is the Logbook itself, in the form of a table. The columns, from left to right, are the index of the row, the name of the session, the duration of the session & the date of the session. The records of the Logbook is ordered in a reversed chronological order, with the earliest session at the top of the table. This is so to remind the user of their immediate previous session so that they can plan their next sessions more effectively.
 
 The accent color for this feature is yellow (Hex Code: `#FFBB44`) as it is known to improve optimism and analytical skills. This increases the user's ability to analyse their sessions to improve their productivity. 
-</details>
 
-<details>
-<summary>Study Locations Near You (Near Me)</summary>
+
+### Study Locations Near You (Near Me)
 
 The Study Locations Near You shows the user their closest study locations. There are two input fields. The user's location data is grabbed using Geo IPify's API and this data is used to generate the Map using OpenStreetMap without the user having to enter any data into the input fields. If the user wishes to search for another location or to improve the accuracy of the location data used to generate the map, the user can input their latitude and longitude in the input fields. OpenStreetMap mainly works with latitude and longitude coordinates only. This data is used to generate a new map of the inputted location which is then shown to the user.
 
 I had originally planned to use the Google Maps API, however, I did not as it is not open-source and incurs a cost after the credit provided is exceeded.
 
 The accent color for this green (Hex Code: `#00A266`) as it is known to give a sense of the outdoors and reduce anxiety, matching the sense of studying somewhere new.
-</details>
 
-<details>
-<summary>About Page</summary>
+### About Page
 
 The About page has a description of what Staid is and what it aims to achieve. The "Credits" section acknowledges the additional technologies used to create Staid.
-</details>
 
-<details>
-<summary>Persistent Light/Dark Mode</summary>
+### Persistent Light/Dark Mode
 
 ![mode-gif](https://user-images.githubusercontent.com/119602009/226172785-d6745b75-247b-4757-98f1-086904117609.gif)
 
