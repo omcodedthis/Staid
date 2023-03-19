@@ -8,7 +8,7 @@ This READ.ME is a WIP & not the final version. I will also be creating a live ve
 
 https://user-images.githubusercontent.com/119602009/226168818-e40fbeba-37d4-40c5-b68a-0091d3a3226f.mp4
 
-Above is video showing the Web App & the usage of each feature. Each feature is explained greater in depth below. Do note that the video is sped up to meet GitHub's file limits.
+Above is video showing the Web App & the usage of each feature. Each feature is explained greater in depth below. Do note that the video has been sped up and compressed to meet GitHub's file limits.
 
 ## Features
 <details>
