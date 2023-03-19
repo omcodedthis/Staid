@@ -48,7 +48,10 @@ The accent color for this green (Hex Code: `#00A266`) as it is known to give a s
 
 <details>
 <summary>About Page</summary>
+<br>
+
 ![Screenshot 2023-03-19 202350](https://user-images.githubusercontent.com/119602009/226174943-f125c306-9d32-4702-b9d3-83878a55d94e.png)
+
 The About page has a description of what Staid is and what it aims to achieve. The "Credits" section acknowledges the additional technologies used to create Staid.
 </details>
 
