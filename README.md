@@ -105,7 +105,7 @@ The toggle button in the header is a Light/Dark mode toggle for the Web App. By 
 </details>
 
 
-## Credits
+## Credits 
 
 * [Bootstrap](https://getbootstrap.com/): For some of the aesthetics.
 
