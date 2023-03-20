@@ -1,0 +1,50 @@
+{% extends "layout.html" %}
+
+{% block icon %}
+<link href="/static/staid-title-icon.ico" rel="icon">
+{% endblock %}
+
+{% block title %}
+Staid: Home
+{% endblock %}
+
+{% block body %}
+<br>
+<br>
+<br>
+<div class="row row-cols-1 row-cols-md-3 g-4 mt-5 mb-5 ms-5 me-5 pb-5">
+    <div class="col" href="/timer">
+      <div class="p-3 card center timer border-4">
+        <svg xmlns="http://www.w3.org/2000/svg" class="mt-2 mb-auto ms-auto me-auto" width="100" height="100" viewBox="0 0 24 24" fill="none" stroke="#44a1f1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+        <div class="card-body">
+          <h5 class="card-title">Timer</h5>
+          <p class="card-text">This Timer can be used to time your study sessions, helping you to focus on what matters to you.</p>
+          <a href="/timer" class="btn btn-timer">Use the Timer.</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="p-3 card center logbook border-4">
+        <svg xmlns="http://www.w3.org/2000/svg" class="mt-2 mb-auto ms-auto me-auto" width="100" height="100" viewBox="0 0 24 24" fill="none" stroke="#ffbb44" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-book-open"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path></svg>
+        <div class="card-body">
+          <h5 class="card-title">Your Logbook</h5>
+          <p class="card-text">This Logbook logs your study sessions, use this to track your productivity and improve it.</p>
+          <a href="/logbook" class="btn btn-logbook">View your Logbook.</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+        <div class="p-3 card center near-me border-4">
+          <svg xmlns="http://www.w3.org/2000/svg" class="mt-2 mb-auto ms-auto me-auto" width="100" height="100" viewBox="0 0 24 24" fill="none" stroke="#00a266" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-map-pin"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+          <div class="card-body">
+            <h5 class="card-title text-truncate">Study Locations Near You</h5>
+            <p class="card-text">This tool will aid you in finding the nearest place to study, using your current location.</p>
+            <a href="near-me" class="btn btn-near-me">Find a place to study.</a>
+        </div>
+        </div>
+      </div>
+  </div>
+  <br>
+  <br>
+  <br>
+{% endblock %}
