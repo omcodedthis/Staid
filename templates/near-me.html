@@ -1,0 +1,41 @@
+{% extends "layout.html" %}
+
+{% block icon %}
+<link href="/static/map-title-icon.ico" rel="icon">
+{% endblock %}
+
+
+{% block title %}
+Staid: Near You
+{% endblock %}
+
+
+{% block near_me_active %}
+active
+{% endblock %}
+
+
+{% block body %}
+<div class="row row-cols-md-auto g-auto mt-5 mb-5 ms-auto me-auto">
+  <div class="card mt-5 mb-1 ms-auto me-4 ps-0 pe-0 near-me border-4" style="height: 100%; width: 33.15rem;">
+    <h4 class="card-header">Enter your desired location!</h4>
+    <div class="card-body">
+      <h6 class="card-text text-body" style="line-height: 1.70; margin-top: -4px; margin-bottom: -4px;">Note: Your device location has been approximated by default, enter your current location for a more accurate result if required.</h6>
+      <form action="/near-me" method="post">
+      <p class="card-text me-2 mt-4">Your Latitude:</p>
+        <input class="form-control me-auto mt-auto" type="text" placeholder="Latitude" name="lat" minlength="1">
+        <p class="card-text me-2 mt-3">Your Longitude:</p>
+        <input class="form-control me-auto mt-auto" type="text" placeholder="Longitude" name="lng" minlength="1">
+        <button class="btn btn-near-me form-control me-auto mt-4 mb-auto btn-lg" type="submit">Search!</button>
+      </form>
+    </div>
+  </div>
+<div class= "mt-5 mb-1 ms-4 me-auto">
+    <iframe style="display: {{ displayb }};" width="660" class="frame" height="420" src="https://www.openstreetmap.org/export/embed.html?bbox={{ user_longitude }}%2C{{ user_latitude }}%2C{{ user_longitude }}%2C{{ user_latitude }}&amp;layer=mapnik&amp;marker={{ user_latitude }}%2C{{ user_longitude }}"></iframe>
+    <iframe style="display: {{ displaya }};" width="660" class="frame" height="420" src="https://www.openstreetmap.org/export/embed.html?bbox={{ user_lng }}%2C{{ user_lat }}%2C{{ user_lng }}%2C{{ user_lat }}&amp;layer=mapnik&amp;marker={{ user_lat }}%2C{{ user_lng }}"></iframe>
+</div>
+</div>
+<div class="mb-5 small text-center text-muted mt-auto mb-5 ms-auto me-auto">
+    Location Data provided by <a href="https://geo.ipify.org/" target="_blank" rel="noopener noreferrer">Geo Ipify</a> & <a href="https://www.openstreetmap.org/" target="_blank" rel="noopener noreferrer">OpenStreetMap</a>.
+</div>
+{% endblock %}
