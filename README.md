@@ -121,7 +121,7 @@ The toggle button in the header is a Light/Dark mode toggle for the Web App. By 
   pip install -r requirements.txt
   ```
 
-* Make a [Geo Ipify](https://geo.ipify.org/) account and set your API Key to api_key as the provided key may expire.
+* Make a [Geo Ipify](https://geo.ipify.org/) account and set your API Key to api_key.
 https://github.com/omcodedthis/Staid/blob/d7d48e7e49a225075e9ce1eb623491fe768a2280/app.py#L16-L20
 
 * To run the application on a development server, use this command line while in the main folder of the Web App (Staid-main/).
