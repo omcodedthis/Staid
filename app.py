@@ -199,7 +199,7 @@ def duration_checker(duration):
          return True
 
 
-# date_checker() checks the date inputted follows the guidelines of DD/MM/YYYY.
+# date_checker() checks the date inputted follows the guidelines of DD/MM/YYYY, ensuring that the date is also not zero.
 def date_checker(date):
     checker = 0
     zero_checker = 0
