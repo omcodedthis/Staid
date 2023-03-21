@@ -3,6 +3,10 @@
 
 Staid is a study helper that complements the learning process for students. The name was formed by joining the words study and aid, encapsulating the meaning within. The logo is a target, representing Staid's aim to help students to achieve their targets. It comes with 3 main features, the Timer, the Logbook and Study Locations Near Me (Near Me) which are explained in greater detail below. It is currently hosted on [PythonAnywhere.](https://www.pythonanywhere.com/)
 
+### Some Statistics
+
+![Screenshot 2023-03-21 153503](https://user-images.githubusercontent.com/119602009/226542846-5d8d9f1d-2819-4aee-a10f-858fce276d46.png)
+<sub>*The unbracketed number is the site hits for this month. The bracketed number is zero as Staid was just launched this month. This data was last updated as of 21/03/2023 from PythonAnywhere.*<sub/>
 ## Demo
 
 https://user-images.githubusercontent.com/119602009/226168818-e40fbeba-37d4-40c5-b68a-0091d3a3226f.mp4
