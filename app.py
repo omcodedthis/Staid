@@ -15,7 +15,7 @@ today = date.today()
 db = SQL("sqlite:///user_data.db")
 
 # Sets API Key & URL, this is used to get user geographical data.
-api_key = 'at_uitFJ1GOsnl2sC7p5qjTD9Vzr6MiH'
+api_key = 'your API Key'
 api_url = 'https://geo.ipify.org/api/v2/country,city?'
 
 
