@@ -6,7 +6,7 @@ Staid is a study helper that complements the learning process for students. The 
 ### Some Statistics
 
 ![Screenshot 2023-03-21 153503](https://user-images.githubusercontent.com/119602009/226542846-5d8d9f1d-2819-4aee-a10f-858fce276d46.png)
-<sub>*The unbracketed number is the site hits for this month. The bracketed number is zero as Staid was just launched this month.  Correct as of 21/03/2023.*<sub/>
+<sub>*The unbracketed number is the site hits for this month. The bracketed number is zero as Staid was just launched this month, correct as of 21/03/2023.*<sub/>
 ## Demo
 
 https://user-images.githubusercontent.com/119602009/226168818-e40fbeba-37d4-40c5-b68a-0091d3a3226f.mp4
