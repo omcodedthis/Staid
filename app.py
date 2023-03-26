@@ -67,6 +67,7 @@ def timer():
         except IndexError:
             return render_template("error.html")
 
+
 # route for logbook. If the request method is via GET, the user's sessions are retrieved from users_data.db using
 # their IP as the unique identifier. The data from the SQL database is assigned to user_data which is then iterated
 # over in logbook.html, showing each session as a row of the table. If the request method is via POST, the user has
