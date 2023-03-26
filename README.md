@@ -126,7 +126,7 @@ The toggle button in the header is a Light/Dark mode toggle for the Web App. By 
   ```
 
 * Make a [Geo Ipify](https://geo.ipify.org/) account and set your API Key to `api_key`.
-  https://github.com/omcodedthis/Staid/blob/7c9a36dc0894670f5b0d9784f25f65bf03e21b58/app.py#L16-L20
+  https://github.com/omcodedthis/Staid/blob/e9c6fd65e93e98eb63d9b2859869a74338ac914d/app.py#L16-L20
 
 * To run the application on a development server, use this command line while in the main folder of the Web App (Staid-main/).
    ```
