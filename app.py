@@ -43,7 +43,7 @@ def timer():
             duration = request.form.get("duration")
 
             if duration_checker(duration):
-                 return render_template("error.html")
+                return render_template("error.html")
 
             total = 0
             total += int(duration[8] + duration[9])
