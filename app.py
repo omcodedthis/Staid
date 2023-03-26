@@ -92,13 +92,13 @@ def logbook():
             session_date = request.form.get("date")
 
             if (len(session_name) <= 0) or (len(session_duration) <= 0) or (len(session_date) <= 0):
-                    return render_template("error.html")
+                return render_template("error.html")
 
             if duration_checker(session_duration):
-                 return render_template("error.html")
+                return render_template("error.html")
 
             if date_checker(session_date):
-                 return render_template("error.html")
+                return render_template("error.html")
 
             url = api_url + 'apiKey=' + api_key + '&ipAddress=' + request.environ.get('HTTP_X_REAL_IP', request.remote_addr)
             response = urlopen(url)
