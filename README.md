@@ -45,7 +45,7 @@ The accent color for this feature is Blue (Hex Color Code: `#44A1F1`) as it is k
 </picture>
 &nbsp;
 
-The Logbook is a log of all the user's study sessions. There are two sections. The first is for the user to add a session to the Logbook directly with three input fields, the name of the session, the duration of the session & the date of the session they wish to add. The second is the Logbook itself, in the form of a table. The columns, from left to right, are the index of the row, the name of the session, the duration of the session & the date of the session. The records of the Logbook is ordered in a reversed chronological order, with the earliest session at the top of the table. This is so to remind the user of their immediate previous session so that they can plan their next sessions more effectively.
+The Logbook is a log of all the user's study sessions. There are two sections. The first is for the user to add a session to the Logbook directly with three input fields, the name of the session, the duration of the session & the date of the session they wish to add. The second is the Logbook itself, in the form of a table. The columns, from left to right, are the index of the row, the name of the session, the duration of the session & the date of the session. The sessions recorded is ordered in a reversed chronological order, with the earliest session at the top of the table. This is so to remind the user of their immediate previous session so that they can plan their next sessions more effectively.
 
 The accent color for this feature is yellow (Hex Color Code: `#FFBB44`) as it is known to improve optimism and analytical skills. This increases the user's ability to analyse their sessions to improve their productivity. 
 
@@ -64,7 +64,7 @@ The accent color for this feature is yellow (Hex Color Code: `#FFBB44`) as it is
 </picture>
 &nbsp;
 
-The Study Locations Near You shows the user their closest study locations. There are two input fields. The user's location data is grabbed using Geo IPify's API and this data is used to generate the Map using OpenStreetMap without the user having to enter any data into the input fields. If the user wishes to search for another location or to improve the accuracy of the location data used to generate the map, the user can input their latitude and longitude in the input fields. OpenStreetMap mainly works with latitude and longitude coordinates only. This data is used to generate a new map of the inputted location which is then shown to the user.
+The Study Locations Near You (Near Me) shows the user their closest study locations. There are two input fields. The user's location data is grabbed using Geo IPify's API and this data is used to generate the Map using OpenStreetMap without the user having to enter any data into the input fields. If the user wishes to search for another location or to improve the accuracy of the location data used to generate the map, the user can input their latitude and longitude in the input fields. OpenStreetMap mainly works with latitude and longitude coordinates only. This data is used to generate a new map of the inputted location which is then shown to the user.
 
 I had originally planned to use the Google Maps API, however, I did not as it is not open-source and incurs a cost after the credit provided is exceeded.
 
