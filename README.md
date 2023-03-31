@@ -137,6 +137,6 @@ The toggle button in the header is a Light/Dark mode toggle for the Web App. By 
 
 Staid was a great learning opportunity. It allowed to me to hone my programming skills as well as taught me the importance of considering the user in my projects to build a better experience.
 
-Through this project, I learnt an important skill in programming, the ability to search for relevant information and documentation of various libraries to implement features into my Web App.
+Through this project, I learnt a key skill in programming. The ability to research for relevant information and documentation of various libraries in order to implement certain features into my Web App. I also furthered my critical thinking skills, which were useful when coming up with a solution to problems I had encountered when building Staid.
 
-I also got a taste of designing from an aesthetic standpoint. Looking for colors that look good in both Light / Dark Modes without causing eye strain, ensuring that each feature's color and icon was used as an accent effectively in their respective pages and spacing the contents apart evenly to make it more appealing for the user.
+I also got a taste of designing from an aesthetic standpoint. Looking for colors that look good in both Light / Dark Modes without causing eye strain, ensuring that each feature's color and icon was used as an accent effectively in their respective pages and spacing the contents apart evenly to make Staid more appealing for the user.
