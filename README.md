@@ -111,13 +111,13 @@ The toggle button in the header is a Light/Dark mode toggle for the Web App. By 
 
 ## Credits 
 
-* [Bootstrap](https://getbootstrap.com/): For some of the aesthetics.
+* [Bootstrap:](https://getbootstrap.com/) For some of the aesthetics.
 
-* [Feather Icons](https://feathericons.com/): For the use of their icons.
+* [Feather Icons:](https://feathericons.com/) For the use of their icons.
 
-* [Geo Ipify](https://geo.ipify.org/): For retrieving user geographical data.
+* [Geo Ipify:](https://geo.ipify.org/) For retrieving user geographical data.
 
-* [OpenStreetMap](https://www.openstreetmap.org/): For its maps, used in conjunction with Geo Ipify data.
+* [OpenStreetMap:](https://www.openstreetmap.org/) For its maps, used in conjunction with Geo Ipify data.
 
 ## Getting Started
 * Install all the dependencies using this command line.
